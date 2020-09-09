@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap_diem</title>
+</head>
+<body>
+<script>
+    let inputToan=prompt("nhap diem mon toan");
+    let inputLy=prompt("nhap diem mon ly");
+    let inputHoa=prompt("nhap diem mon hoa");
+
+    let toan=parseInt(inputToan);
+    let ly=parseInt(inputLy);
+    let hoa=parseInt(inputHoa)
+
+    let tong=toan+ly+hoa;
+    let diemTB=(toan+ly+hoa)/3;
+
+    document.write("tong diem la:"+tong+'<br>');
+    document.write("diem trung binh la:"+diemTB);
+
+</script>
+</body>
+</html>
